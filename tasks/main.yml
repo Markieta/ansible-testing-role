@@ -2,4 +2,4 @@
 # tasks file for ansible-testing-role
 - name: Simple debug message
   debug:
-    msg: Hello World 7!
+    msg: Hello World 8!
