@@ -1,5 +1,4 @@
 ---
 # tasks file for ansible-testing-role
 - name: Simple debug message
-  debug:
-    msg: Hello World 10!
+  command: echo 'Hello World 10!'
