@@ -5,5 +5,5 @@
 
 - name: Testing copy of credential file
   copy:
-    src: "{{ MY_CERT_FILE }}"
+    src: "{{ lookup('env','MY_CERT_FILE') }}"
     dest: /tmp/outfile
