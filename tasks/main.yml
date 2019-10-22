@@ -2,8 +2,3 @@
 # tasks file for ansible-testing-role
 - name: Simple command
   command: echo 'Hello World 10!'
-
-- name: Testing copy of credential file
-  copy:
-    src: "{{ lookup('env','MY_CERT_FILE') }}"
-    dest: /tmp/outfile
